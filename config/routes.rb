@@ -16,5 +16,5 @@ Rails.application.routes.draw do
   resources :users
   resources :books
   resources :microposts
-  root 'users#index'
+  root "users#index"
 end
